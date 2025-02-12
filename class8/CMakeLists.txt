@@ -4,8 +4,6 @@ project(Bowling)
 
 include(cmake/CPM.cmake)
 
-include(CTest)
-
 CPMAddPackage(
   NAME GTest
   GITHUB_REPOSITORY google/googletest

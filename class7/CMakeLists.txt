@@ -6,5 +6,3 @@ add_library(stuff greeting.cxx factorial.cxx hello.h)
 
 add_executable(hello hello.cxx)
 target_link_libraries(hello PRIVATE stuff)
-
-add_subdirectory(bowling)
